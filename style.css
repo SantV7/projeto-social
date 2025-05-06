@@ -36,8 +36,26 @@ main {
 
 #tela {
     position: relative;
-    left: 22px;
+    left: 21px;
     top: 80px;
     height: 472px;
-    width: 269px;
+    width: 268px;
+}
+#redes-sociais {
+    text-align: right;
+}
+#redes-sociais a img {
+    box-sizing: border-box;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+#redes-sociais a img:hover {
+border: 1px solid rgba(255, 255, 255, 0.600);
+transform: translate(-3px, -3px);
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.555);
+transition:  0.4s , border 0.4s;
+
 }
